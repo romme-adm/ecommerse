@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "enminegocioecommerse"
+    }
+  },
+  "defaultProject": "enminegocioecommerse",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,164 @@
+.card {
+  cursor: pointer;
+}
+
+.row {
+  margin-top: 1%;
+}
+
+.img-list-preview {
+  margin-left: -2%;
+}
+
+.img-list-preview ul li {
+  list-style: none;
+}
+
+.img-preview img {
+  vertical-align: middle;
+  text-align: center;
+  width: auto;
+  height: 100%;
+  list-style: none !important;
+  cursor: pointer;
+}
+
+.img-preview {
+  height: 100px !important;
+}
+
+.img-preview:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f0c14b;
+}
+
+.preview-scroll {
+  height: 700px;
+  overflow-y: auto;
+}
+
+.container-option {
+  margin-right: 0%;
+}
+
+.text-brand {
+  color: #007185;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text-brand:hover {
+  cursor: pointer;
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.list-group-item {
+  border: none;
+  width: 90%;
+}
+
+.btn {
+  background-color: #f0c14b;
+  border-color: #232f3e;
+  border-width: 1px;
+  width: 100%;
+  height: auto;
+}
+
+.btn-photo {
+  background-color: #f0c14b;
+  border-color: #232f3e;
+  margin: 1px;
+  border-width: 1px;
+}
+
+.text-price {
+  color: #565959 !important;
+  font-size: 14px;
+}
+
+.price {
+  color: #f0c14b;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+ul.descripcion-product-items {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #232f3e;
+}
+
+.product-desc-title{
+  color: #f0c14b;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .preview-scroll {
+        height: 200px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+      }
+
+    .list-group{
+        margin-right: -10%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .preview-scroll {
+        height: 200px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+      }
+
+      .list-group{
+        margin-right: -10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .preview-scroll {
+        height: 700px;
+        overflow-y: auto;
+      }     
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .preview-scroll {
+        height: 700px;
+        overflow-y: auto;
+      } 
+}
+
+/*scroll*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  transition: 1s !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFFF; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f0c14b; 
+}

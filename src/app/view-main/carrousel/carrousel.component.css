@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.content {
+  position: absolute;
+  bottom: -30%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.view-more-btn {
+  position: absolute;
+  float: left;
+  left: 90%;
+  margin-top: 5px;
+  background-color: transparent;
+  color: #f1f1f1;
+  width: auto;
+  top: 0;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+
+.view-more-btn:hover
+{
+    color: #f0c14b;
+}

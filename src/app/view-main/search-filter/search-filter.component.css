@@ -1,0 +1,24 @@
+.modal-dialog {
+  position: absolute;
+  float: left;
+  left: 75%;
+}
+
+.btn-close {
+  position: relative;
+  float: left;
+  left: 85%;
+}
+
+.list-group-item {
+    font-weight: bolder;
+    transition: 0.3s;
+  }
+  
+
+
+.list-group-item:hover {
+  font-weight: bolder;
+  color: #f0c14b;
+  cursor: pointer;
+}
