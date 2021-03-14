@@ -57,6 +57,7 @@ body{
 .skills span:hover
 {
  font-weight: bolder;
+ cursor: pointer;
 }
 
 
